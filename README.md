@@ -77,3 +77,11 @@ already applied throughout the query file.
 | Monthly cohort retention | Self-joins, `date_trunc`/`date_diff`, cohort analysis pattern |
 | Top 3 products per category | `RANK() OVER (PARTITION BY ...)` |
 | Repeat vs one-time customers | Conditional aggregation |
+
+### Example results
+
+**RFM customer segmentation**
+![RFM segmentation](screenshots/athena_rfm_segmentation.png)
+
+**Monthly cohort retention**
+![Cohort retention](screenshots/athena_cohort_retention.png)
