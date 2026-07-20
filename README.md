@@ -81,7 +81,9 @@ already applied throughout the query file.
 ### Example results
 
 **RFM customer segmentation**
+
 ![RFM segmentation](screenshots/athena_rfm_segmentation.png)
 
 **Monthly cohort retention**
+
 ![Cohort retention](screenshots/athena_cohort_retention.png)
